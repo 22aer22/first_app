@@ -7,15 +7,16 @@ gem 'rails', '4.0.2'
 group :development do 
 	gem 'sqlite3'
 end
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+# Use SCSS for stylesheets
+group :assets do 
+gem 'sass-rails', '~> 4.0.0'
 
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
-  gem 'uglifier', '>= 1.0.3'
-  gem 'compass-rails'
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 3.2.2'
+
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
