@@ -1,15 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     actionmailer (4.0.3)
       actionpack (= 4.0.3)
       mail (~> 2.5.4)
     actionpack (4.0.3)
       activesupport (= 4.0.3)
+=======
+    actionmailer (4.0.2)
+      actionpack (= 4.0.2)
+      mail (~> 2.5.4)
+    actionpack (4.0.2)
+      activesupport (= 4.0.2)
+>>>>>>> parent of f0256b1... gem fix more
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
+<<<<<<< HEAD
     activemodel (4.0.3)
       activesupport (= 4.0.3)
       builder (~> 3.1.0)
@@ -20,6 +29,18 @@ GEM
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
     activesupport (4.0.3)
+=======
+    activemodel (4.0.2)
+      activesupport (= 4.0.2)
+      builder (~> 3.1.0)
+    activerecord (4.0.2)
+      activemodel (= 4.0.2)
+      activerecord-deprecated_finders (~> 1.0.2)
+      activesupport (= 4.0.2)
+      arel (~> 4.0.0)
+    activerecord-deprecated_finders (1.0.3)
+    activesupport (4.0.2)
+>>>>>>> parent of f0256b1... gem fix more
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
       multi_json (~> 1.3)
@@ -39,9 +60,16 @@ GEM
     execjs (2.0.2)
     hike (1.2.3)
     i18n (0.6.9)
+<<<<<<< HEAD
     jbuilder (1.0.2)
       activesupport (>= 3.0.0)
     jquery-rails (3.0.4)
+=======
+    jbuilder (1.5.3)
+      activesupport (>= 3.0.0)
+      multi_json (>= 1.2.0)
+    jquery-rails (3.1.0)
+>>>>>>> parent of f0256b1... gem fix more
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
@@ -55,6 +83,7 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
+<<<<<<< HEAD
     rails (4.0.3)
       actionmailer (= 4.0.3)
       actionpack (= 4.0.3)
@@ -70,16 +99,40 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.1.1)
     rdoc (3.12.2)
+=======
+    rails (4.0.2)
+      actionmailer (= 4.0.2)
+      actionpack (= 4.0.2)
+      activerecord (= 4.0.2)
+      activesupport (= 4.0.2)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.0.2)
+      sprockets-rails (~> 2.0.0)
+    railties (4.0.2)
+      actionpack (= 4.0.2)
+      activesupport (= 4.0.2)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.1.1)
+    rdoc (4.1.1)
+>>>>>>> parent of f0256b1... gem fix more
       json (~> 1.4)
     sass (3.2.14)
     sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
+<<<<<<< HEAD
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
     sprockets (2.11.0)
+=======
+    sdoc (0.4.0)
+      json (~> 1.8)
+      rdoc (~> 4.0, < 5.0)
+    sprockets (2.10.1)
+>>>>>>> parent of f0256b1... gem fix more
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -88,7 +141,10 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+<<<<<<< HEAD
     sqlite3 (1.3.8)
+=======
+>>>>>>> parent of f0256b1... gem fix more
     sqlite3 (1.3.8-x86-mingw32)
     thor (0.18.1)
     thread_safe (0.1.3)
@@ -97,14 +153,22 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+<<<<<<< HEAD
     turbolinks (1.1.1)
       coffee-rails
     tzinfo (0.3.38)
     uglifier (2.1.1)
+=======
+    turbolinks (2.2.1)
+      coffee-rails
+    tzinfo (0.3.38)
+    uglifier (2.4.0)
+>>>>>>> parent of f0256b1... gem fix more
       execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+      json (>= 1.8.0)
 
 PLATFORMS
+<<<<<<< HEAD
   ruby
   x86-mingw32
 
@@ -118,3 +182,17 @@ DEPENDENCIES
   sqlite3 (= 1.3.8)
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
+=======
+  x86-mingw32
+
+DEPENDENCIES
+  coffee-rails (~> 4.0.0)
+  jbuilder (~> 1.2)
+  jquery-rails
+  rails (= 4.0.2)
+  sass-rails (~> 4.0.0)
+  sdoc
+  sqlite3
+  turbolinks
+  uglifier (>= 1.3.0)
+>>>>>>> parent of f0256b1... gem fix more
